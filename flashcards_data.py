@@ -253,4 +253,5 @@ questions_and_answers = [
     {'question': 'Which TCP/IP service automatically configures clients with an IP address?', 'answer': 'DHCP'},
     {'question': 'How many bytes are in a kilobyte?', 'answer': '1,000'},
     {'question': 'Malware that tracks your Internet activity and sells that information to marketers is called what?', 'answer': 'Spyware'},
+    {'question': 'What is the name of the component that controls communication between the processor and memory?', 'answer': 'Chipset'},
 ]

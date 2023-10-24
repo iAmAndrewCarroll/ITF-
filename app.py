@@ -13,6 +13,7 @@ app.secret_key = os.getenv('SECRET_KEY')
 def menu():
     if request.method == 'POST':
         session_length = request.form.get('session_length')
+        print("Session Length:", session_length)
         if session_length == "0":  # All cards
             session['cards'] = questions_and_answers.copy()
         else:

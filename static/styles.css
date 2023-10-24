@@ -31,6 +31,7 @@ select {
   -webkit-appearance: none; /* Remove default appearance for Safari */
   -moz-appearance: none; /* Remove default appearance for Firefox */
   width: 200px; /* Set a fixed width; adjust as needed */
+  border-radius: 25px;
 }
 
 select:focus {
@@ -67,6 +68,7 @@ button {
   transition: box-shadow 0.3s ease;
   display: block;
   margin: 50px auto;
+  border-radius: 25px;
 }
 
 button:hover {

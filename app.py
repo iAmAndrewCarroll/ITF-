@@ -25,8 +25,18 @@ def menu():
 def index():
     if 'cards' not in session or not session['cards']:
         return redirect(url_for('menu'))
+    
+    # If there are no more flashcards in the session, reset the session
+    if not session['cards']:
+        return redirect(url_for('menu'))
+    
     card = session['cards'].pop()
-    return render_template("index.html", card=card)
+    session['counter'] += 1
+
+    counter = session.get('counter')  # default to 0 if counter not in session
+    total = session.get('total')  # default to 0 if total not in session
+    
+    return render_template("index.html", card=card, counter=counter, total=total)
 
 if __name__ == "__main__":
     app.run(debug=True)

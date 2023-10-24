@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  color: #33FF33;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#content {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+#answer {
+  text-align: center;
+}
+
+#answer p {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 50px auto;
+}
+
+button {
+  background-color: black;
+  color: green;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+  transition: box-shadow 0.3s ease;
+  display: block; /* Make buttons occupy their own row */
+  margin: 50px auto; /* Auto margins for centering and 5px for a bit of spacing */
+}
+
+button:hover {
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.9);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  #answer p {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  h1 {
+    font-size: 1.8em;
+  }
+  #answer p {
+    font-size: 1.4em;
+  }
+}

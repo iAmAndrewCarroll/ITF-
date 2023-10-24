@@ -753,3 +753,10 @@ If you want to prevent a button on a web page from working on a web browser, wha
 
 Which TCP/IP service automatically configures clients with an IP address?
 - DHCP
+
+How many bytes are in a kilobyte?
+- 1,000
+
+Malware that tracks your Internet activity and sells that information to marketers is called what?
+- Spyware
+

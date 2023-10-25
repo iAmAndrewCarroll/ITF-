@@ -254,4 +254,7 @@ questions_and_answers = [
     {'question': 'How many bytes are in a kilobyte?', 'answer': '1,000'},
     {'question': 'Malware that tracks your Internet activity and sells that information to marketers is called what?', 'answer': 'Spyware'},
     {'question': 'What is the name of the component that controls communication between the processor and memory?', 'answer': 'Chipset'},
+    {'question': 'A programmer wants to write code that directly accesses the computer\'s hardware. Which is the best type of language for the programmer to use?','answer': 'Assembly'},
+    {'question': 'Which type of card might have a joystick port?', 'answer': 'Audio/Sound card'},
+    {'question': 'What file system does not allow you to rename a file when it is open?', 'answer': 'NTFS and FAT32'},
 ]

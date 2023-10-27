@@ -257,4 +257,9 @@ questions_and_answers = [
     {'question': 'A programmer wants to write code that directly accesses the computer\'s hardware. Which is the best type of language for the programmer to use?','answer': 'Assembly'},
     {'question': 'Which type of card might have a joystick port?', 'answer': 'Audio/Sound card'},
     {'question': 'What file system does not allow you to rename a file when it is open?', 'answer': 'NTFS and FAT32'},
+    {'question': 'What is a SuperSpeed device?', 'answer': 'USB 3.x'},
+    {'question': 'What option can you configure on your workstation to increase security when you leave your desk?', 'answer': 'Lock the computer / Screen saver password'},
+    {'question': 'Which of the following is not a form of intellectual property protection? Trademark, Patent, Copyright, Authentication.', 'answer': 'Authentication'},
+    {'question': 'What two types of connectors can a joystick have?', 'answer': 'PS/2 and USB'},
 ]
+

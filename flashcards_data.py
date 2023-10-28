@@ -261,5 +261,13 @@ questions_and_answers = [
     {'question': 'What option can you configure on your workstation to increase security when you leave your desk?', 'answer': 'Lock the computer / Screen saver password'},
     {'question': 'Which of the following is not a form of intellectual property protection? Trademark, Patent, Copyright, Authentication.', 'answer': 'Authentication'},
     {'question': 'What two types of connectors can a joystick have?', 'answer': 'PS/2 and USB'},
+    {'question': 'According to the ITIL framework, a ____ is the structured information about all the services and service offerings of a service provider, relevant for a specific target audience.', 'answer': 'Service Catalog'},
+    {'question': 'A ____ is capable of resolving technical issues but does not liaise with other resolver groups, service providers or departments.', 'answer': 'Help Desk'},
+    {'question': 'Your manager has indicated that there are limited resources available today, so you should prioritize resolving urgent requests first. What is the process known as?', 'answer': 'Triage'},
+    {'question': 'Which of these troubleshooting steps takes place soonest in the troubleshooting methodology?', 'answer': 'Reproduce the problem'},
+    {'question': 'You have followed the troubleshooting methodology on a specific ticket and failed to resolve the problem. You believe additional expertise is required. What is the next step?', 'answer': 'Escalate the ticket'},
+    {'question': 'Which document explains how the company network, website or system may be used and sets guidelines as to how it should be used?', 'answer': 'Acceptable Use Policy (AUP)'},
+    {'question': 'What does this line of bash script do: #!/bin/bash and what is it called?', 'answer': 'It is called a shebang and it tells the shell which interpreter to use for the script'},
+    {'question': 'what needs to be added to the following command to install Python on an Ubuntu Linux computer: ____ apt-get install python3', 'answer': 'sudo'},
 ]
 

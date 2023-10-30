@@ -269,5 +269,9 @@ questions_and_answers = [
     {'question': 'Which document explains how the company network, website or system may be used and sets guidelines as to how it should be used?', 'answer': 'Acceptable Use Policy (AUP)'},
     {'question': 'What does this line of bash script do: #!/bin/bash and what is it called?', 'answer': 'It is called a shebang and it tells the shell which interpreter to use for the script'},
     {'question': 'what needs to be added to the following command to install Python on an Ubuntu Linux computer: ____ apt-get install python3', 'answer': 'sudo'},
+    {'question': 'What type of expansion card allows your computer to communicate over telephones?', 'answer': 'Modem'},
+    {'question': 'Is a scanner an input device?', 'answer': 'Yes'},
+    {'Mary, an admin, creates a field and designates it to hold integer data.  Joe, a user, tries to enter his name into the field, but it doesn\'t let him save the data.  What is this an example of?', 'answer': 'Constraint'},
 ]
+
 
